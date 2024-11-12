@@ -1,0 +1,218 @@
+* {
+    color: black;
+    font-family: "Helvetica Neue";
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(/Fonts/HelveticaNeueLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "Helvetica Neue bold";
+    src: url(/Fonts/HelveticaNeueLTStd-Bd.otf);
+}
+
+
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+
+nav {
+    width: 1185px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 107px;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: -390px;
+}
+
+nav>div {
+    font-family: "Helvetica Neue bold";
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-kerning: 24;
+}
+
+h1 {
+    font-size: 149px;
+    line-height: 176, 4;
+    font-kerning: -24px;
+    padding-left: 50px;
+}
+
+.testo {
+    width: 285px;
+    height: auto;
+    margin: 315px 0px 144px 392px;
+}
+
+main {
+    width: 1400px;
+    margin: 0 auto;
+    height: auto;
+}
+
+section {
+    border: none;
+    border-bottom: 1px solid #333333;
+    margin: 0 auto;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 800px 0px 107px;
+}
+
+.sub2 {
+    color: #999999;
+
+}
+
+.subtitle div {
+    font-size: 25px;
+    line-height: 26px;
+    font-kerning: 24;
+}
+
+.box {
+    margin: 0px 0px 200px 0px;
+}
+
+img.hero {
+    width: 1185px;
+    height: auto;
+    margin: 122px 107px 0px 107px;
+}
+
+.info {
+    width: 1185px;
+    margin: 0px 107px 0px 107px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#work {
+    padding-right: 180px;
+}
+
+h2 {
+    font-size: 94px;
+    line-height: 100px;
+    margin: 0px 0px 140px 0px;
+
+
+}
+
+figure {
+    margin: 0px;
+    display: inline;
+}
+
+figcaption {
+    font-size: 16px;
+    font-kerning: -32;
+    line-height: 17px;
+    margin: 5px 0px 190px 0px;
+    padding-left: 5px;
+    width: 270px;
+}
+
+.did {
+    color: #999999;
+}
+
+
+
+img.setio {
+    position: relative;
+    width: 285px;
+    height: auto;
+}
+
+img.gif {
+    width: 585px;
+    height: auto;
+}
+
+img.ikea {
+    width: 1000px;
+    height: auto;
+    margin-left: 107px;
+}
+
+#ikea {
+    margin-left: 107px;
+}
+
+img.nike {
+    width: 585px;
+    height: auto;
+}
+
+img.able {
+    width: 285px;
+    height: auto;
+}
+
+
+.imm {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    width: 885px;
+
+}
+
+.imm2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    width: 885px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    width: 1185px;
+    margin: 0px 107px 0px 107px;
+}
+
+img.aws,
+img.google,
+img.everiday,
+img.agile {
+    width: 285px;
+    height: auto;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0px 107px 0px 107px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 1400px;
+    margin: 0 auto;
+    height: 190px;
+}
+
+.bin {
+    margin-top: 30px;
+}
